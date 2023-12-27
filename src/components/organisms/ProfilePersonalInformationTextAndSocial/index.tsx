@@ -38,7 +38,8 @@ const ProfilePersonalInformationTextAndSocial = () => {
                     <li className="flex border-b py-2">
                         <span className="font-bold w-24">Languages:</span>
                         <span className="text-gray-700">
-                            Brazilian Portuguese
+                            Brazilian Portuguese | English (Intermediate
+                            conversation and reading)
                         </span>
                     </li>
                     <ProfileSocialMedia />
