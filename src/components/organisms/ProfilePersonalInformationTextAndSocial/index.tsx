@@ -1,11 +1,13 @@
 import { useGitHubUserData } from '../../../hooks/useGitHubUserData'
+import { getAge } from '../../../utils/getAge'
 import ProfileSocialMedia from '../../molecules/ProfileSocialMedia'
 
 const ProfilePersonalInformationTextAndSocial = () => {
     const { location } = useGitHubUserData()
+    const age = getAge()
 
     return (
-        <div className="w-full flex flex-col 2xl:w-1/3">
+        <div className="w-full flex flex-col ">
             <div className="flex-1 bg-white rounded-lg shadow-xl p-8">
                 <h4 className="text-xl text-gray-900 font-bold">
                     Personal Info
@@ -20,6 +22,10 @@ const ProfilePersonalInformationTextAndSocial = () => {
                     <li className="flex border-b py-2">
                         <span className="font-bold w-24">Birthday:</span>
                         <span className="text-gray-700">11 Oct, 1998</span>
+                    </li>
+                    <li className="flex border-b py-2">
+                        <span className="font-bold w-24">Age:</span>
+                        <span className="text-gray-700">{age} years</span>
                     </li>
                     <li className="flex border-b py-2">
                         <span className="font-bold w-24">Mobile:</span>
@@ -38,8 +44,7 @@ const ProfilePersonalInformationTextAndSocial = () => {
                     <li className="flex border-b py-2">
                         <span className="font-bold w-24">Languages:</span>
                         <span className="text-gray-700">
-                            Brazilian Portuguese | English (Intermediate
-                            conversation and reading)
+                            Brazilian Portuguese
                         </span>
                     </li>
                     <ProfileSocialMedia />
