@@ -1,4 +1,4 @@
-import { works } from '../../../config/works'
+import { works } from '../../../public/data/works'
 
 const WorkList = () => {
     return (
