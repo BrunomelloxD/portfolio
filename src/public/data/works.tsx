@@ -17,7 +17,7 @@ export const works = [
     {
         company: 'Alares Internet',
         title: 'Junior Developer',
-        time: 'Abril 2023 - May 2024',
+        time: 'April 2023 - May 2024',
         description:
             'Maintenance and development of internal systems and the creation of new features and projects.',
         technologies: [
