@@ -1,18 +1,19 @@
 export const works = [
     {
-        "company": "Gazin Tech",
-        "title": "Software Developer",
-        "time": "May 2024 - Present",
-        "description": "Maintenance and development of internal systems and the creation of new features and projects.",
-        "technologies": [
-            "PHP",
-            "Typescript",
-            "React",
-            "Node.js",
-            "Express.js",
-            "SQL"
+        company: 'Gazin Tech',
+        title: 'Software Developer',
+        time: 'May 2024 - Present',
+        description:
+            'Maintenance and development of internal systems and the creation of new features and projects.',
+        technologies: [
+            'AngularJS',
+            'PHP',
+            'Next.js',
+            'Typescript',
+            'Nest.js',
+            'SQL'
         ],
-        "actual": true
+        actual: true
     },
     {
         company: 'Alares Internet',
