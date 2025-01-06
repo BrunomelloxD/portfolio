@@ -1,5 +1,6 @@
 export const works = [
     {
+        key: 1,
         company: 'Gazin Tech',
         title: 'Software Developer',
         time: 'May 2024 - Present',
@@ -16,6 +17,7 @@ export const works = [
         actual: true
     },
     {
+        key: 2,
         company: 'Alares Internet',
         title: 'Junior Developer',
         time: 'April 2023 - May 2024',
@@ -32,6 +34,7 @@ export const works = [
         actual: false
     },
     {
+        key: 3,
         company: 'Alares Internet',
         title: 'Technical Administrative Assistant',
         time: 'February 2023 - April 2023',
@@ -41,6 +44,7 @@ export const works = [
         actual: false
     },
     {
+        key: 4,
         company: 'Conexão Fibra',
         title: 'Administrative Assistant',
         time: 'February 2021 - March 2023',
@@ -50,6 +54,7 @@ export const works = [
         actual: false
     },
     {
+        key: 5,
         company: 'Conexão Fibra',
         title: 'Intern',
         time: 'August 2020 - February 2021',

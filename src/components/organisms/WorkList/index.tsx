@@ -6,7 +6,7 @@ const WorkList = () => {
             <div className="absolute h-full border border-dashed border-opacity-20 border-secondary"></div>
             {works.map(work => (
                 <div
-                    key={work.company}
+                    key={work.key}
                     className="flex items-center w-full my-6 -ml-1.5"
                 >
                     <div className="w-1/12 z-10">

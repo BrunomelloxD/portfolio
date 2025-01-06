@@ -5,7 +5,6 @@ const ProfilePictureBackground = () => {
             <img
                 src={ProfileBackground}
                 className="w-full h-full object-cover"
-                loading="lazy"
                 alt="Profile Background"
             />
         </div>

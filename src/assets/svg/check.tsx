@@ -8,9 +8,9 @@ const Check = () => {
             stroke="currentColor"
         >
             <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="4"
                 d="M5 13l4 4L19 7"
             ></path>
         </svg>

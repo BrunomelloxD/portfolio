@@ -6,7 +6,6 @@ const ProfilePicture = () => {
         <img
             src={avatar_url}
             className="w-40 border-4 border-white rounded-full object-cover"
-            loading="lazy"
             alt="Profile Picture"
         />
     )
