@@ -19,17 +19,16 @@ export const works = [
     {
         key: 2,
         company: 'Alares Internet',
-        title: 'Junior Developer',
+        title: 'Junior Backend Developer',
         time: 'April 2023 - May 2024',
         description:
             'Maintenance and development of internal systems and the creation of new features and projects.',
-        technologies: [
-            'PHP',
+            technologies: [
+            'Nest.js',
             'Typescript',
-            'React',
-            'Node.js',
-            'Express.js',
-            'SQL'
+            'React (Vite)',
+            'PHP',
+            'Postgres'
         ],
         actual: false
     },
